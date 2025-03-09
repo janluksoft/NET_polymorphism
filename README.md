@@ -86,11 +86,11 @@ FlyingMessage().
 ```csharp
 
 
-List\<FlyingMachine\> machines = new List\<FlyingMachine\>
+List<FlyingMachine> machines = new List<FlyingMachine>
 {
-  new JetPlane(\"Airbus A320\", 78000, 0.38, 230, 122.6, 0.62),
-  new Helicopter(\"UH-60 Black Hawk\", 10660, 1.225, 8.18, 16.02, 0.22),
-  new HotAirBalloon(\"Cameron Z-750\", 3640, 21238, 1.225, 0.925)
+  new JetPlane("Airbus A320", 78000, 0.38, 230, 122.6, 0.62),
+  new Helicopter("UH-60 Black Hawk", 10660, 1.225, 8.18, 16.02, 0.22),
+  new HotAirBalloon("Cameron Z-750", 3640, 21238, 1.225, 0.925)
 };
 
 foreach (var machine in machines)
